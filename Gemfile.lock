@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    hola (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hola!
+
+BUNDLED WITH
+   2.0.1
