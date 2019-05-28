@@ -1,15 +1,13 @@
-require "hola/version"
-require 'hola/hola'
+require_relative "../lib/hola/version.rb"
+#require 'hola/holla'
 
-module Hola
-  class Error < StandardError; end
-  class Hola
+  class Holla
     def self.portray(hola)
       if hola.downcase == "hello"
-        "Goodbye!"
+        "Hey!"
       else
-        "Welcome!"
+        "Hi!"
       end
     end
   end
-end
+
