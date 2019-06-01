@@ -1,6 +1,6 @@
 require_relative "../lib/hola/version.rb"
-#require 'hola/holla'
-
+module Hola
+class Error < StandardError; end
   class Holla
     def self.portray(hola)
       if hola.downcase == "hello"
@@ -10,4 +10,4 @@ require_relative "../lib/hola/version.rb"
       end
     end
   end
-
+end
